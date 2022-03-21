@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mapscomposable">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".FishingSpotApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_fish_laucher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_fish_laucher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MapsCompose">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MapsCompose">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBm2tIVwg8SlyY5BN-xfgkTUFwZOdYGbo0" />
+    </application>
+
+</manifest>

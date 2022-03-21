@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fishing Spot</string>
+
+    <string name="marker.snippet.click">Long click to delete</string>
+    <string name="marker.title.click">Fishing spot (%s, %s)</string>
+    <string name="marker.content_description">Mark location</string>
+</resources>
